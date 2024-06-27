@@ -71,6 +71,13 @@ data:
       limit_arches:
         - x86_64
         - ppc64le
+    libxcrypt-compat:
+      srpm: libxcrypt-compat
+      description: Compatibility library providing legacy API functions
+      requires: []
+      limit_arches:
+        - x86_64
+        - ppc64le
     compat-locales-sap-common:
       srpm: compat-locales-sap
       description: locales for SAP
